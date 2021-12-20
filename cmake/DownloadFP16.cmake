@@ -12,8 +12,8 @@ PROJECT(fp16-download NONE)
 
 INCLUDE(ExternalProject)
 ExternalProject_Add(fp16
-  URL https://github.com/Maratyszcza/FP16/archive/0a92994d729ff76a58f692d3028ca1b64b145d91.zip
-  URL_HASH SHA256=e66e65515fa09927b348d3d584c68be4215cfe664100d01c9dbc7655a5716d70
+  GIT_REPOSITORY https://lvsen@gitlab.seetatech.com/lvsen/FP16.git
+  GIT_TAG 61bd6a25863d754e8815ae537adcba3dcfeba277
   SOURCE_DIR "${CMAKE_BINARY_DIR}/FP16-source"
   BINARY_DIR "${CMAKE_BINARY_DIR}/FP16"
   CONFIGURE_COMMAND ""
