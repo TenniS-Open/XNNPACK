@@ -24,7 +24,7 @@ OPTION(XNNPACK_ENABLE_SPARSE "Build XNNPACK with graph rewriting for sparse infe
 OPTION(XNNPACK_BUILD_TESTS "Build XNNPACK unit tests" OFF)
 OPTION(XNNPACK_BUILD_BENCHMARKS "Build XNNPACK benchmarks" OFF)
 OPTION(XNNPACK_USE_SYSTEM_LIBS "Use system-provided dependency libraries" OFF)
-OPTION(XNNPACK_BUILD_WASM_WITH_SIMD "Build XNNPACK with wasm and wasm-simd" ON)
+OPTION(XNNPACK_BUILD_WASM_WITH_SIMD "Build XNNPACK with wasm and wasm-simd" OFF)
 OPTION(XNNPACK_BUILD_WASM_WITH_THREADS "Build XNNPACK with wasm and threads" OFF)
 SET(XNNPACK_WASMSIMD_SPEC_VERSION "" CACHE STRING "Wasm-simd in specific version, like 87,88,91.")
 
