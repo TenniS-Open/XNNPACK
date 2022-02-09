@@ -12,7 +12,7 @@ PROJECT(pthreadpool-download NONE)
 
 INCLUDE(ExternalProject)
 ExternalProject_Add(pthreadpool
-  GIT_REPOSITORY https://lvsen@gitlab.seetatech.com/lvsen/pthreadpool.git
+  GIT_REPOSITORY https://gitlab.seetatech.com/TenniS/pthreadpool
   GIT_TAG tennis
   SOURCE_DIR "${CMAKE_BINARY_DIR}/pthreadpool-source"
   BINARY_DIR "${CMAKE_BINARY_DIR}/pthreadpool"
