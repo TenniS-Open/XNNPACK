@@ -12,7 +12,7 @@ PROJECT(fxdiv-download NONE)
 
 INCLUDE(ExternalProject)
 ExternalProject_Add(fxdiv
-  GIT_REPOSITORY https://gitlab.seetatech.com/TenniS/FXdiv
+  GIT_REPOSITORY https://github.com/TenniS-Open/FXdiv
   GIT_TAG 63058eff77e11aa15bf531df5dd34395ec3017c8
   SOURCE_DIR "${CMAKE_BINARY_DIR}/FXdiv-source"
   BINARY_DIR "${CMAKE_BINARY_DIR}/FXdiv"

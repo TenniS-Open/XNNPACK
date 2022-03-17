@@ -12,7 +12,7 @@ PROJECT(fp16-download NONE)
 
 INCLUDE(ExternalProject)
 ExternalProject_Add(fp16
-  GIT_REPOSITORY https://gitlab.seetatech.com/TenniS/FP16
+  GIT_REPOSITORY https://github.com/TenniS-Open/FP16
   GIT_TAG master
   SOURCE_DIR "${CMAKE_BINARY_DIR}/FP16-source"
   BINARY_DIR "${CMAKE_BINARY_DIR}/FP16"
